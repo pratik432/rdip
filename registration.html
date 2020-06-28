@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+
+	<title>registration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-top: 30px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+
+
+}
+
+		.mainmenu{ width: 100%;position: relative; }
+		.logo ul li  {width:10%;height: 20%; margin-top: 5px; text-decoration: none;}
+		.logo ul li:nth-child(2){float:right;}
+		.a{ height: 50%;width: 50%}
+		
+	
+</style>
+</head>
+<body>
+
+	<div class="mainmenu">
+  		<div class="logo">
+  			<ul>
+  			<li><a href="https://www.iiit.ac.in/" ><img class="a" src="https://www.iiit.ac.in/img/iiit-new.png" alt="iiith"></a></li>
+  			<li><a class="rdip" href="https://serc.iiit.ac.in/rdip">RDIP</a></li>
+  		</ul>
+  		</div>
+  	</div>
+
+	<div class="topnav">
+ 	<a href ="homepage.html" >Home</a>
+ 	<a href="registration.html">Registration Form</a>
+	</div>
+	<div class="form_" style="padding-top: 40px ;padding-left:30px;">
+		<form action="details.html" method="GET"  target="_blank" >
+
+	
+		
+	
+		<label for="fname" style="margin-right: 155px ">First Name :</label> <input type="text" name="name" id="fname" required><br><br>
+		<label style="margin-right: 180px">Email ID:</label> <input type="email" name="email" required><br><br>
+		<label style="margin-right: 165px">Phone no. :</label> <input type="number" name="phno." required><br><br>
+	
+		<label style="margin-right: 180px">Gender:</label> <input type="radio" name="Gender" required >male<input type="radio" name="Gender" >female<input type="radio" name="Gender" >others<br><br>
+		<label style="margin-right: 110px">Reason for RDIP:</label> <input type="radio" name="reason" >HTML<input type="radio" name="reason">CSS<input type="radio" name="reason" required>JavaScript<br>	<br>
+
+		<label style="margin-right: 180px">College:</label> <input type="text" name="college" required><br>		<br>
+		<input type="checkbox" style="margin-right: 180px" required> I hereby declare above details given 	by me are true.<br><br>
+		<button type="submit" style="margin-right: 180px">submit</button>
+		<button type="reset" >Reset</button>
+		</form>
+	
+     </div>
+</body>
+</html>
