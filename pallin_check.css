@@ -1,0 +1,16 @@
+h2{
+
+	color: slateblue;
+	text-align: center;
+	border: 5px solid grey;
+
+}
+
+input[type="text"]{
+
+
+	transition: 3s;
+	height: 50px;
+	width: 270PX;
+	
+}

@@ -1,0 +1,57 @@
+div{
+	text-align: center;
+	color: slateblue;
+	border: solid black 1px;
+	margin-bottom: 50px;
+	width: 100%;
+	padding:  auto;
+	background-color: lightgrey;
+}
+
+table{
+	padding: auto ;
+	text-align: center;
+}
+
+table{
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgrey;
+	
+}
+
+.button{
+	width: 60px;
+	
+	margin: 5px;
+	background-color: slateblue;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 100%;
+	border-width: 0;
+
+}
+#screen{
+	width: 250px;
+	height: 50px;
+	margin: 10px;
+	font-size: 30px;
+
+}
+
+tr{
+	width: 10px;
+}
+
+.button1 {
+	margin: 5px;
+	background-color: slateblue;
+	text-align: left;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 100%;
+	border-width: 0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href="calculator.css" rel="stylesheet" type="text/css" />
+	<script src="weekend.js" type="text/javascript"></script>
+</head>
+<body>
+<div class = title > <h1>CALCULATOR</h1></div>
+<table border="3">
+<tr>
+	<td  colspan="3" ><input type="text/number" id="screen" name="screen"></td >
+</tr>
+<tr>
+<td ><input type="button" class="button" value="   1   " onclick="d('1')"/> </td >
+<td ><input type="button" class="button" value="   2   " onclick="d('2')"/> </td >
+<td ><input type="button" class="button" value="   3   " onclick="d('3')"/> </td >
+</tr>
+<tr>
+<td ><input type="button" class="button" value="   4   " onclick="d('4')"/> </td >
+<td ><input type="button" class="button" value="   5   " onclick="d('5')"/> </td >
+<td ><input type="button" class="button" value="   6   " onclick="d('6')"/> </td >
+</tr>
+<tr>
+<td ><input type="button" class="button" value="   7   " onclick="d('7')"/> </td >
+<td ><input type="button" class="button" value="   8   " onclick="d('8')"/> </td >
+<td ><input type="button" class="button" value="   9   " onclick="d('9')"/> </td >
+</tr>
+<tr>
+<td ><input type="button" class="button" value="   0   " onclick="d('0')"/> </td >
+<td ><input type="button" class="button" value="   +   " onclick="d('+')"/ id="plus"> </td >
+<td ><input type="button" class="button" value="   -   " onclick="d('-')"/ id="minus"> </td >
+</tr>
+<tr>
+<td ><input type="button" class="button" value="   *   " onclick="d('*')"/ id="multiply"> </td >
+<td ><input type="button" class="button" value="   /   " onclick="d('/')"/ id="divide"> </td >
+<td ><input type="button" class="button" value="   %   " onclick="d('%')"/ id="percentage"> </td >
+
+</tr>
+<tr>
+
+<td><input type="button" class="button1" value="   sqroot   " onclick="d('sqroot')" id="square"> </td >
+<td ><input type="button" class="button1" value="absolute" onclick="d('absolute')" id="absolute"> </td >
+</tr>
+<tr>
+	<td  ><input type="button" class="button" value ="   clr  " name="clear" onclick="clr()"></td >
+	
+	<td colspan="2"><input type="button" class="button"  value ="   =   "  name="solve" onclick="solv()"></td >
+</tr>
+</table>
+</body>
+
+</html>

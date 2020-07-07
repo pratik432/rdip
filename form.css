@@ -1,0 +1,25 @@
+h2{
+
+	color: slateblue;
+	text-align: center;
+	border: 5px  solid grey;
+}
+
+
+fieldset{
+
+	width: 150px;
+	margin: auto;
+}
+
+legend{
+
+	margin: auto;
+}
+
+
+#submit{
+
+	margin-left: 25px
+}
+
